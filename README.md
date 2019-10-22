@@ -10,13 +10,13 @@ The simulation analysis results show that the trend of the number of momentum tr
 # 1.1 Entities:
 Multiple agents which are both prospective buyers and prospective sellers.
 There are two separate stocks on the market, whose prices are driven by events.
-# 1.2 Basic theory
+## 1.2 Basic theory
 Each agent will make a choice to buy or sell in each transaction and determines the number of stocks traded. A t the beginning, each agent randomly selects their trading strategy and then adjusts the strategy based on their earnings over time.
 
 The trading price of a stock is determined by the supply and demand relationship
 between the buyer s and the seller s in the market. If the supply exceeds the demand, the
 corresponding stock price decreases; if the supply is less than demand, the price rises.
-## 1.3 Model hypothesis
+### 1.3 Model hypothesis
 Assume that neither stock produces dividends
 Assume that trading stocks do not incur transaction costs;
 Assuming no deposit system, so there is no linked mark to market system
